@@ -4,7 +4,7 @@ import "dotenv/config";
 
 // Init Arcjet
 export const aj = arcjet({
-  key: process.env.ARCNET_KEY,
+  key: process.env.ARCJET_KEY,
   characteristics: ["ip.src"],
   rules: [
     // Shield protects your app from common attacks, e.g. SQL injection and XSS and CSRF attacks.
